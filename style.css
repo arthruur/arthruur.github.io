@@ -11,7 +11,7 @@
     width: 80%;
     height: 1000px;
     position: relative;
-    margin: 100px auto;
+    margin: 50px auto;
     overflow: hidden;
 }
 .btn-box{
@@ -80,21 +80,50 @@ ul li {
     font-weight: bold;
 }
 .container{
-    width: 300px;
     height: 300px;
-    flex-shrink: 0;
-    border-radius: 609px;
-    background: #FFDE68;
+    width: 300px;
+    border-radius: 50%;
     display: flex;
+    background: #FFDE68;
     flex-direction: column;
     justify-content: flex-end;
     margin: auto;
+    position: relative;
+    bottom: 150px;
+
 }
 h1{
     text-align: center;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 h2{
     text-align: center;
     margin-bottom: 20px;
+    font-weight: none;
+}
+
+@media (max-width: 768px) {
+    .btn-box{
+        display: flex;
+        border-bottom: 1px solid #ccc;
+        justify-content:center;
+    }
+    .btn-box button{
+        background: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 12px;
+        margin-right: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .btn-box .fa-solid{
+        margin-right: 15px;
+    }
+    .btn-box button:hover .fa-solid{
+        color: #FFDE68;
+    }
+    
 }

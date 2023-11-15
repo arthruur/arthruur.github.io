@@ -6,10 +6,6 @@
     margin: 0;
     font-family: "Inika";
 }
-button {
-    -webkit-tap-highlight-color: black;
-}
-
 
 .hero{
     position: relative;

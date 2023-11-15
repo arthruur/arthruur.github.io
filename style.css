@@ -193,8 +193,19 @@ h2{
         justify-content: center;
         align-items: center;
         margin-top: 42px;
-        margin-left: 50px;
+        margin-left: 30px;
         position: absolute;
+    }
+    #btn_pratos{
+        text-align: left;
+        margin-left: 30px;
+    }
+    #btn_drinks{
+        margin: 0 auto;
+    }
+    #btn_cervejas {
+        text-align: right;
+        margin-right: 30px;
     }
     
 }

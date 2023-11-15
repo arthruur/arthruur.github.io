@@ -120,6 +120,14 @@ h2{
     bottom: 75px;
 }
 @media  (max-width:768px) {
+    
+    .hero{
+        width: 350px;
+        position: relative;
+        margin: auto;
+        bottom: 300px;
+        
+    }
     h1{
         color: #0B0A0B;
         text-align: center;

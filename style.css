@@ -10,7 +10,8 @@ button {
     -webkit-tap-highlight-color: black;
 }
 .hero{
-    width: 500px;
+    width: 100%;
+    max-width: 600px;
     position: relative;
     margin: auto;
     bottom: 250px;
@@ -34,14 +35,14 @@ button {
 }
 #btn_pratos{
     text-align: left;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 #btn_drinks{
     margin: 0 auto;
 }
 #btn_cervejas {
     text-align: right;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .btn-box .fa-solid{
     margin-right: 20px;
@@ -123,7 +124,8 @@ h2{
 @media  (max-width:768px) {
 
     .hero{
-        width: 350px;
+        width: 100%;
+        max-width: 600px;
         position: relative;
         margin: auto;
         bottom: 300px;

@@ -183,6 +183,8 @@ h2{
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        -webkit-tap-highlight-color: transparent;
+
     }
     .hero{
         position: relative;

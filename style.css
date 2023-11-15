@@ -6,6 +6,10 @@
     margin: 0;
     font-family: "Inika";
 }
+button {
+    -webkit-tap-highlight-color: transparent;
+}
+
 
 .hero{
     position: relative;
@@ -183,8 +187,6 @@ h2{
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        -webkit-tap-highlight-color: transparent;
-
     }
     .hero{
         position: relative;

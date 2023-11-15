@@ -120,26 +120,26 @@ h2{
     h1{
         color: #0B0A0B;
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         position: relative;
-        bottom: 70px;
+        bottom: 60px;
     }
     h2{
         position: relative;
         color: #0B0A0B;
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         bottom: 60px;
     }
     .container{
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
         display: flex;
         background: #FFDE68;
@@ -147,7 +147,7 @@ h2{
         justify-content: flex-end;
         position: relative;
         margin: auto;
-        bottom: 200px;
+        bottom: 150px;
     }
 
     .preco{
@@ -186,7 +186,7 @@ h2{
     }
     .hero{
         position: relative;
-        margin-top: 150px;
+        margin-top: 200px;
     }
     .content{
         display: flex;
